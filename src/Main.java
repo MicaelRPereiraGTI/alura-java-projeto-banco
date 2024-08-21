@@ -8,9 +8,9 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        nome = "Jacqueline Oliveira";
+        nome = "Micael Pereira";
         tipoConta = "Corrente";
-        saldo = 2500.00;
+        saldo = 6000.00;
         int opt;
 
         String extratoInicial = """
@@ -19,7 +19,9 @@ public class Main {
         Dados iniciais do cliente:
 
         Nome:""" + nome + """
+        
         Tipo conta:""" + tipoConta + """
+        
         Saldo inicial: R$""" + String.format("%.2f", saldo) + """
         
         
